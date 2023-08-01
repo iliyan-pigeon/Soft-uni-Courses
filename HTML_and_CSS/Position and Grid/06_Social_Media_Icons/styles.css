@@ -1,0 +1,15 @@
+@import "https://kit.fontawesome.com/b8f4a4e9f6.css";
+
+
+ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    border-radius: 50%;
+}
+
+a:hover{
+    cursor: pointer;
+}

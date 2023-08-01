@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+    margin-left: 30%;
+    
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.card div button {
+    background-color: rgb(0, 153, 0);
+    position: relative;
+    left: 426px;
+    
+}
+
+.card div h3{
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
+
+.card div button a{
+    color: white;
+    text-decoration: none;
+}
+
+/*.card div img{
+    position: absolute;
+}
+

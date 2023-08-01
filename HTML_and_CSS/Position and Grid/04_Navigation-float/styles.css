@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(238, 238, 238) ;
+    margin: 1% 8% 3% 5%;
+}
+
+img {
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: rgba(0, 0, 0, 0.25) ;
+}
+
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+
+#title {
+    border-bottom: solid 2px black;
+}
+
+header * {
+    display: inline-block;
+}
+header p{
+    padding-right: 650px;
+    font-size: large;
+    font-weight: bolder;
+}
+nav ul a{
+    position: relative;
+    color: rgb(15, 173, 41);
+    text-decoration: none;
+    font-size: 14px;
+    left: 100px;
+    padding: 18px;
+}
+
+
+/* main and aside styles */
+
+main{
+    display: inline-block;
+    width: 70%;
+}
+
+aside{
+    position: absolute;
+    padding-left: 65px;
+    width: 19%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+aside ul li a {
+    color: rgb(10, 172, 10);
+}
+
+
+img:nth-child(1) {
+    float: right;
+}
+
+.left-element {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 0px;
+
+}
+
+blockquote {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    font-family: Georgia, serif;
+    font-style: italic;
+    border-left: 3px solid gray;
+    font-size: 14px;
+    padding-left: 20px;
+    color: gray;
+    margin: 0;
+}
+
+.author-name {
+    padding-right: 30px;
+    text-align: right;
+}
+
+article:nth-child(2){
+    overflow: auto;
+}
+img:nth-child(2) {
+    margin-top: 18px;
+    margin-right: 18px;
+    float: left;
+}

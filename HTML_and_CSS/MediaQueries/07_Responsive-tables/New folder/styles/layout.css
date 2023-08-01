@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(237, 234, 234);
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+table {
+    width: 80vw;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+th{
+    padding: 1%;
+}
+
+td{
+    padding-left: 1%;
+}
+
+table,
+td,
+th {
+    border: 1px solid #b4b2b2;
+    text-align: left;
+}
+
+/*  || MEDIA QUERIES */
+
+@media all and (max-width: 767px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    td {
+        /* Behave  like a "row" */
+        position: relative;
+        padding-left: 45%;
+    }
+
+    td:before {
+        /* Now like a table header */
+        position: absolute;
+        top: 2%;
+        left: 2%;
+        width: 45%;
+        padding-right: 10%;
+        white-space: nowrap;
+        padding-top: 2%;
+    }
+
+    td {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        vertical-align: middle;
+    }
+
+    td:nth-of-type(1):before {
+        content: "First Name";
+    }
+
+    td:nth-of-type(2):before {
+        content: "Last Name";
+    }
+
+    td:nth-of-type(3):before {
+        content: "Job Title";
+    }
+
+    /* change color */
+    tr:nth-child(even) {
+        background-color: white;
+    }
+}

@@ -1,0 +1,117 @@
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body{
+    background-color: rgb(238, 238, 238) ;
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+}
+
+blockquote,
+h1,
+h2,
+h3{
+    font-family: Georgia, serif;
+}
+
+a{
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    flex-direction: column;
+    max-height: 1500px;
+    gap: 70px;
+}
+
+.first img{
+    float: right;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+header{
+    width: 100%;
+    border-bottom: 2px solid rgb(64, 64, 64);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.second .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "second.p  b";
+}
+
+blockquote{
+    font-size: small;
+    color: rgb(89, 89, 89);
+    font-style: italic;
+    padding-left: 35px;
+    border-left: 3.5px solid 	rgb(217, 217, 217);
+}
+
+blockquote div{
+    float:right;
+    margin-top: 30px;
+}
+
+.third .dog{
+    float: left;
+    padding: 5px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+@media (min-width: 500) {
+    body{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500) {
+    body{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600) {
+    body{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800) {
+    body{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1300) {
+    body{
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 1800) {
+    body{
+        font-size: 23px;
+    }
+}

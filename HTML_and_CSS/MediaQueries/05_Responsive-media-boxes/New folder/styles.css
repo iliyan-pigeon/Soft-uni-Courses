@@ -1,0 +1,93 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 550px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px gray;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 1.2em;
+    top: 380px;
+}
+
+.card img {
+    position: absolute;
+    width: 100%;
+}
+
+.card p {
+    position: absolute;
+    top: 420px;
+    font-size: 18px;
+
+}
+
+.card button {
+    background-color: rgb(0, 153, 0);
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.text {
+    padding: 30px;
+    
+}
+
+@media (max-width: 1470px) {
+    .card {
+        left: 30%;
+    }    
+}
+
+@media (max-width: 960px) {
+    .card {
+        left: 50%;
+    }    
+}
+
+@media (max-width: 570px) {
+    .card {
+        width: 500px;
+        height: 500px;
+    }    
+}
+
+@media (max-width: 510px) {
+    .card {
+        width: 400px;
+        height: 400px;
+    }    
+}
+
+@media (max-width: 510px) {
+    .card {
+        width: 300px;
+        height: 300px;
+    }    
+}
