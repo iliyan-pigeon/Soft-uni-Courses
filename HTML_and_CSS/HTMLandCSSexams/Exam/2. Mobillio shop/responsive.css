@@ -1,0 +1,19 @@
+@media (max-width: 600px){
+    .home-container01{
+        display: none;
+    }
+
+    .home-left,
+    .home-right{
+        display: none;
+    }
+
+    .navbar-logo-title{
+        align-items: flex-start;
+        padding-left: 0px;
+    }
+
+    .home-hero{
+        max-width: 600px;
+    }
+}

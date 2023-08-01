@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+div{
+    width: 60%;
+    margin: auto;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f4f5f7;
+    padding: 20px 5px 20px 5px;
+    margin: 3px;
+    justify-content: space-between;
+}
+
+section i{
+    color: #23be5e;
+    font-size: 25px;
+}
+
+.first{
+    margin-bottom: 0px;
+}
+
+.second{
+    margin-top: 0px;
+}
+
+p{
+    color: #3d403e;
+}
+
+.upperBorder{
+    border-top-left-radius: 8px;
+}
+
+.lowerBorder{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.aside{
+    background-color: #42abf8;
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 128px;
+    left: 1423px;
+    vertical-align: middle;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.aside p{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
+    vertical-align: middle;
+    margin-top: 10px;
+}

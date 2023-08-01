@@ -1,0 +1,50 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+.container {
+    max-width: 65vw;
+    display: flex;
+    text-align: center;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.week span {
+    flex: auto;
+    height: 4rem;
+    width: 15%;
+}
+
+.week span:nth-child(1), 
+.week span:nth-child(7) {
+    width: 100%;
+}
+
+.week span:nth-child(8), 
+.week span:nth-child(9) {
+    flex:auto;
+}
+
+
+.container .notes {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.container .notes span {
+    height: 17vh;
+    flex-grow: 1;
+}
+
+span {
+    border: 1px solid black;
+    padding: 0.5rem;
+}

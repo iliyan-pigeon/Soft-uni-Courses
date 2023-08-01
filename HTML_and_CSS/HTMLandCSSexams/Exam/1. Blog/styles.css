@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: #f6e0b5;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.pictures-section{
+    position: relative;
+    display: grid;
+    gap: 10px 20px;
+    grid-template-areas: 
+    "a b"
+    "c d";
+}
+
+.picture{
+    width: 250px;
+    overflow: hidden;
+}
+
+.picture img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.picture-article{
+    background-color: #66545e;
+    border: 1px solid black;
+    border-radius: 14px;
+    color: white;
+    font-size: 14px;
+    padding-bottom: 6px;
+    overflow: hidden;
+    box-shadow: inset;
+}
+
+.movie-reviews{
+    grid-area: a;
+}
+
+.celebrity-interviews{
+    grid-area: b;
+}
+
+.tv-guides{
+    grid-area: c;
+}
+
+.arts-culture{
+    grid-area: d;
+}
+
+li{
+    list-style: none;
+}
+
+.text-section{
+    font-size: 14px;
+    font-style: bold;
+}
+
+span{
+    color: #f6e0b5;
+    background-color: #64525c;
+    border-radius: 100%;
+    font-size: icon;
+}
+
+.heading{
+    margin-left: 40px;
+}
